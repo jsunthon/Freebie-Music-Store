@@ -1,0 +1,67 @@
+#search-box {
+    width:400px;
+}
+
+/*!
+ Music Thumbnail on Home Page
+*/
+.thumb {
+    margin-bottom: 30px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+body {
+    background-color:whitesmoke;
+}
+
+#search-btn {
+    width:120px;
+}
+
+
+#sidebar-div {
+    margin-left:-40px;    
+}
+
+ #sidebar-div a:hover {
+ 	background-color: #2c3e50;
+ }
+
+ #sidebar-div a {
+ 	color: #ffffff;
+ }
+
+  #sidebar-div ul.dropdown-menu a {
+ 	color: #2c3e50;
+ } 
+
+  
+  #sidebar-div ul.dropdown-menu a:hover {
+ 	color: whitesmoke;
+ } 
+
+.footer-distributed {
+	margin-bottom:-1000px;
+}
+
+.see-more {
+	font-size:13px;
+}
+
+.song-img {
+	width: 420px;
+	height: 400px;
+}
+
+#album-pg-img {
+	width: 220px;
+	height: 200px;
+}
+
+#profile-pic {
+	width: 220px;
+	height: 200px;
+}

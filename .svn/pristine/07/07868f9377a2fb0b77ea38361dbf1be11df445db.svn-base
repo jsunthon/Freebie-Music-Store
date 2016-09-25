@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd  
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-4.2.xsd">
+
+	<mvc:annotation-driven />
+
+	<!-- 1) Remember to change the base-package's name -->
+	<!-- 2) Now you should go create a Hello World Controller (don't forget 
+		@Controller and @RequestMapping package-name [springmusic.web.controller] 
+		) -->
+	<!-- 3) Don't forget to create a jsp folder in web-inf, and a hello.jsp 
+		for your controller to map to -->
+	<!-- 4) When you're done, user maven to add: org.springframework:spring-orm, 
+		org.postgresql:postgresql, org.apache.tomcat:tomcat-jdbc, and org.hibernate:hibernate-entitymanager:4.2.21.Final -->
+	<!-- 5) will need to create a persistence.xml. src/resources/META-INF/persistence.xml -->
+	<!-- 6) Will need to create applicationContext.xml under WEB-INF -->
+
+
+	<context:component-scan base-package="springmusic.web" />
+
+	<bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/jsp/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+
+	<bean id="messageSource"
+		class="org.springframework.context.support.ResourceBundleMessageSource">
+		<property name="basename" value="messages" />
+	</bean>
+
+
+
+</beans>

@@ -1,0 +1,16 @@
+package springmusic.model.dao;
+
+import java.util.List;
+
+import springmusic.model.Artist;
+
+public interface ArtistDao {
+
+    List<Artist> getArtists();
+
+    List<Artist> searchArtist(String searchTerm);
+
+    Artist getArtist(int id);
+
+    void delete(Artist artist);
+}

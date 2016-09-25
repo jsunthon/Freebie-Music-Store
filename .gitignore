@@ -1,7 +1,10 @@
+.classpath
 .settings
 .project
-.classpath
-.svn
-/target
-*.DS_Store
-*.swp
+.DS_Store
+
+
+
+
+
+

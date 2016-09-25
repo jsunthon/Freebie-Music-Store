@@ -1,0 +1,3 @@
+error.field.empty=This field is empty.
+error.email.unique=Email already exist. Choose a different email.
+error.password.nonmatching=Password not matching.

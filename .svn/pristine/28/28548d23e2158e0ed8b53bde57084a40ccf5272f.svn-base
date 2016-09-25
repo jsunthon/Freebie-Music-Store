@@ -1,0 +1,7 @@
+drop table users cascade;
+drop table artists cascade;
+drop table albums cascade;
+drop table tracks cascade;
+drop table comments cascade;
+drop table playlists cascade;
+drop table downloads cascade;
