@@ -1,0 +1,7 @@
+.settings
+.project
+.classpath
+.svn
+/target
+*.DS_Store
+*.swp
