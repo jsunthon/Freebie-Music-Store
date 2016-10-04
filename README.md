@@ -1,5 +1,8 @@
 # music-store
-CS437 Software Engineering Group Project - Spring/Hibernate MVC
+CS437 Software Engineering Group Project. This is a online music store inspired by iTunes, Google Play, Pandora, Last.fm, SoundCloud, and Genius.
+
+#Technologies
+Java, Spring, Hibernate/JPA, Bootstrap, JavaScript, jQuery, MySQL, Tomcat, Maven
 
 #requirements
 * mysql
